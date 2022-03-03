@@ -101,6 +101,7 @@ BOARD_KERNEL_CMDLINE := \
     swiotlb=0 \
     ip6table_raw.raw_before_defrag=1 \
     iptable_raw.raw_before_defrag=1
+BOARD_USES_GENERIC_KERNEL_IMAGE := true
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
