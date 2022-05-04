@@ -4,7 +4,7 @@
 //
 
 cc_library {
-    name: "libgptutils.oneplus_lahaina",
+    name: "libgptutils.oneplus_taro",
     vendor: true,
     recovery_available: true,
     shared_libs: [
