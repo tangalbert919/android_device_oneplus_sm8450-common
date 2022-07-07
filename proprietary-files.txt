@@ -101,15 +101,44 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio libraries
+# Audio
+system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
+system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/hw/audio.primary.taro.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/libadm.so
 vendor/lib/libadsprpc.so
+vendor/lib/libagmclient.so
+vendor/lib/libar-acdb.so
+vendor/lib/libar-gpr.so
+vendor/lib/libar-gsl.so
+vendor/lib/libar-pal.so
 vendor/lib/libaudio_log_utils.so
+vendor/lib/libbatterylistener.so
+vendor/lib/liblx-ar_util.so
+vendor/lib/liblx-osal.so
 vendor/lib/libqtigefar.so
+vendor/lib/vendor.oplus.hardware.performance@1.0.so
+vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so
+vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
+vendor/lib/vendor.qti.hardware.pal@1.0.so
+vendor/lib64/hw/audio.primary.taro.so
 vendor/lib64/libadm.so
 vendor/lib64/libadsprpc.so
+vendor/lib64/libagmclient.so
+vendor/lib64/libar-acdb.so
+vendor/lib64/libar-gpr.so
+vendor/lib64/libar-gsl.so
+vendor/lib64/libar-pal.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libbatterylistener.so
+vendor/lib64/liblx-ar_util.so
+vendor/lib64/liblx-osal.so
+vendor/lib64/vendor.oplus.hardware.performance@1.0.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.pal@1.0.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
