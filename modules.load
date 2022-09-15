@@ -309,7 +309,6 @@ rmnet_offload.ko
 rmnet_perf_tether.ko
 rmnet_shs.ko
 rmnet_wlan.ko
-msm_drm.ko
 msm-eva.ko
 explorer.ko
 msm-mmrm.ko
