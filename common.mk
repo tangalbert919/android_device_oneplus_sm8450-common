@@ -47,18 +47,10 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
-    liba2dpoffload \
     libbatterylistener \
-    libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
-    libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libsndmonitor \
-    libspkrprot \
-    libssrec \
     libstdc++.vendor \
     libvolumelistener \
     sound_trigger.primary.taro:32
@@ -108,8 +100,9 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.7-impl \
-    android.hardware.camera.provider@2.7-service_64 \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service_64 \
+    android.hardware.camera.provider@2.7-external-service \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_COPY_FILES += \
@@ -130,19 +123,16 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.common-V2-ndk_platform.vendor \
-    android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
-    libmemutils \
     libqdMetaData \
     libqdMetaData.system \
     libsdmcore \
     libsdmutils \
     libtinyxml \
-    memtrack.default \
     vendor.display.config@1.0 \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0 \
@@ -270,7 +260,7 @@ PRODUCT_PACKAGES += \
 
 # Neural network
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks-V1-ndk_platform.vendor \
+    android.hardware.neuralnetworks-V1-ndk.vendor \
     android.hardware.neuralnetworks@1.3.vendor
 
 # NFC
@@ -292,12 +282,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
     libstagefrighthw
 
 # Overlays
