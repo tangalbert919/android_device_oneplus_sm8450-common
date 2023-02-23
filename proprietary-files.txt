@@ -93,6 +93,19 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
 vendor/lib/hw/audio.primary.taro.so
+-vendor/lib/libar-gsl.so
+-vendor/lib/libar-pal.so
+-vendor/lib/liblx-osal.so
+-vendor/lib64/libar-gsl.so
+-vendor/lib64/libar-pal.so
+-vendor/lib64/liblx-osal.so
+
+# Audio (AGM)
+vendor/lib/libagmclient.so
+-vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/lib64/libagmclient.so
+-vendor/lib64/libagm.so
+-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
