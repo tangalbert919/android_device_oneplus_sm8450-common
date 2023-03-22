@@ -88,10 +88,12 @@ TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_oplus
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_CMDLINE := \
+BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
-    androidboot.usbcontroller=a600000.dwc3 \
+    androidboot.usbcontroller=a600000.dwc3
+BOARD_KERNEL_CMDLINE := \
+    bootconfig \
     cgroup.memory=nokmem,nosocket \
     loop.max_part=7 \
     lpm_levels.sleep_disabled=1 \
