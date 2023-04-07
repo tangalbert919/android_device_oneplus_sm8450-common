@@ -61,6 +61,11 @@ TARGET_BOOTLOADER_BOARD_NAME := taro
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth/include
 
+# Display
+SOONG_CONFIG_qtidisplay += \
+    gralloc_handle_has_reserved_size
+SOONG_CONFIG_qtidisplay_gralloc_handle_has_reserved_size := true
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
