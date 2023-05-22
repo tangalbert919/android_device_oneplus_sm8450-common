@@ -1,11 +1,13 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Reserve
 /dev/block/bootdevice/by-name/oplusreserve1    0660    root    system
+/dev/block/bootdevice/by-name/oplusreserve3    0660    root    system
+/dev/block/bootdevice/by-name/oplusreserve5    0660    root    system
 
 # WiFi
 firmware_directories /odm/etc/wifi/
