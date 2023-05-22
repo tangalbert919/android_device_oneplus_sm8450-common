@@ -1085,6 +1085,7 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
 # Display calibration data
+vendor/etc/ltm_config_boe_rm692e5_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
 
@@ -1818,6 +1819,10 @@ odm/firmware/tp/21631/FW_S3908_SAMSUNG.img
 odm/firmware/tp/21631/FW_S3908_SAMSUNG_FAE.img
 odm/firmware/tp/21631/LIMIT_S3908_SAMSUNG.img
 odm/firmware/tp/21631/LIMIT_S3908_SAMSUNG_AGING.img
+odm/firmware/tp/21841/FW_S3910_BOE_FAE.img
+odm/firmware/tp/21841/FW_S3910_BOE.img
+odm/firmware/tp/21841/LIMIT_S3910_BOE_AGING.img
+odm/firmware/tp/21841/LIMIT_S3910_BOE.img
 
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
