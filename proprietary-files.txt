@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 10 Pro (NE2213_11.C.30).
+## from OnePlus 10 Pro (NE2213_13.1.0.521(EX01)).
 
 # ACDBs
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
@@ -83,7 +83,6 @@ vendor/lib/rfsa/adsp/libmctfengine_skel.so
 vendor/lib/rfsa/adsp/libosie_skel.so
 vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so
 vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libtracker_6dof_skel_8250.so
 vendor/lib/rfsa/adsp/libtracker_6dof_skel_8350.so
@@ -234,83 +233,77 @@ odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin
 odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin
 odm/etc/camera/fb_model/skinmask.bin
 odm/etc/camera/fb_model/skinmask.png
-odm/etc/camera/filters_lut/B1VLf4peM
 odm/etc/camera/filters_lut/B1aMqioxf
 odm/etc/camera/filters_lut/B1nmcmWbG
 odm/etc/camera/filters_lut/B1si_XbZz
+odm/etc/camera/filters_lut/B1VLf4peM
 odm/etc/camera/filters_lut/B612Pretty.cube.rgb.bin
+odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/BJJAwoigM
 odm/etc/camera/filters_lut/BJyKIwqxz
-odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin
-odm/etc/camera/filters_lut/ByW7g4bbf
-odm/etc/camera/filters_lut/ByYo3If
-odm/etc/camera/filters_lut/BycYf7WWz
-odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin
-odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin
-odm/etc/camera/filters_lut/EyxRbD2UCe
-odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin
-odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin
-odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin
-odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin
-odm/etc/camera/filters_lut/Martin.cube.rgb.bin
-odm/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin
-odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin
-odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin
-odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin
-odm/etc/camera/filters_lut/SJ3mbr6ef
-odm/etc/camera/filters_lut/SkpZ8ebbz
-odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin
-odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin
-odm/etc/camera/filters_lut/Sy4uLSTgf
-odm/etc/camera/filters_lut/Syt2KeZZf
-odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin
-odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin
-odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin
-odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin
-odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin
-odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin
-odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin
+odm/etc/camera/filters_lut/blackandwhite.cube.rgb.bin
 odm/etc/camera/filters_lut/black_gold.bin
 odm/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin
 odm/etc/camera/filters_lut/bright_coloured.bin
+odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin
+odm/etc/camera/filters_lut/BycYf7WWz
+odm/etc/camera/filters_lut/ByW7g4bbf
+odm/etc/camera/filters_lut/ByYo3If
 odm/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin
+odm/etc/camera/filters_lut/cola.bin
 odm/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
 odm/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin
 odm/etc/camera/filters_lut/default
 odm/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin
+odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin
+odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin
 odm/etc/camera/filters_lut/drjw1994.bin
 odm/etc/camera/filters_lut/drjw2010.bin
+odm/etc/camera/filters_lut/Emerald.cube.rgb.bin
+odm/etc/camera/filters_lut/EyxRbD2UCe
+odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin
 odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin
 odm/etc/camera/filters_lut/f_bin_hideaki
 odm/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin
 odm/etc/camera/filters_lut/f_contrast_gray_face_dark
 odm/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin
 odm/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin
+odm/etc/camera/filters_lut/fuji.cube.rgb.bin
+odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin
+odm/etc/camera/filters_lut/gourmet.cube.rgb.bin
+odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin
+odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin
+odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin
 odm/etc/camera/filters_lut/interstellar_space.bin
 odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin
+odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin
+odm/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin
+odm/etc/camera/filters_lut/kodak.cube.rgb.bin
 odm/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/Martin.cube.rgb.bin
 odm/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin
 odm/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin
+odm/etc/camera/filters_lut/mono.cube.rgb.bin
+odm/etc/camera/filters_lut/morandi.cube.rgb.bin
+odm/etc/camera/filters_lut/natural.cube.rgb.bin
 odm/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin
 odm/etc/camera/filters_lut/neon-2020.cube.rgb.bin
 odm/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin
 odm/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin
 odm/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin
-odm/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin
-odm/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin
-odm/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin
-odm/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin
-odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin
-odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin
-odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin
+odm/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin
 odm/etc/camera/filters_lut/oplus_r4.cube.rgb.bin
 odm/etc/camera/filters_lut/oplus_r5.cube.rgb.bin
 odm/etc/camera/filters_lut/oplus_r6.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin
+odm/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin
+odm/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin
+odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin
 odm/etc/camera/filters_lut/oplus_video_filter_black_and_white
 odm/etc/camera/filters_lut/oplus_video_filter_highlight
 odm/etc/camera/filters_lut/oplus_video_filter_ins
@@ -321,6 +314,8 @@ odm/etc/camera/filters_lut/oplus_video_filter_show
 odm/etc/camera/filters_lut/oplus_video_filter_solar
 odm/etc/camera/filters_lut/oplus_video_filter_strong
 odm/etc/camera/filters_lut/oplus_video_filter_west
+odm/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin
+odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin
 odm/etc/camera/filters_lut/oppo_video_filter_black_and_white
 odm/etc/camera/filters_lut/oppo_video_filter_highlight
 odm/etc/camera/filters_lut/oppo_video_filter_ins
@@ -335,25 +330,45 @@ odm/etc/camera/filters_lut/p4_1.cube.rgb.bin
 odm/etc/camera/filters_lut/p4_2.cube.rgb.bin
 odm/etc/camera/filters_lut/p4_3.cube.rgb.bin
 odm/etc/camera/filters_lut/p4_4.cube.rgb.bin
+odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin
+odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin
+odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/r1JaFSZZG
 odm/etc/camera/filters_lut/r1PrfoolG
+odm/etc/camera/filters_lut/Radiance.cube.rgb.bin
+odm/etc/camera/filters_lut/red-red.cube.rgb.bin
 odm/etc/camera/filters_lut/rJ5g5vPWG
 odm/etc/camera/filters_lut/rJxJtmaez
-odm/etc/camera/filters_lut/red-red.cube.rgb.bin
 odm/etc/camera/filters_lut/rkMhq4ZWf
 odm/etc/camera/filters_lut/rkx5u4Zbf
 odm/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin
+odm/etc/camera/filters_lut/Serenity.cube.rgb.bin
+odm/etc/camera/filters_lut/SJ3mbr6ef
+odm/etc/camera/filters_lut/SkpZ8ebbz
 odm/etc/camera/filters_lut/sky-blue.cube.rgb.bin
+odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin
 odm/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin
+odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin
+odm/etc/camera/filters_lut/Sy4uLSTgf
+odm/etc/camera/filters_lut/Syt2KeZZf
 odm/etc/camera/filters_lut/tree-green.cube.rgb.bin
 odm/etc/camera/filters_lut/type_fuji_acros
 odm/etc/camera/filters_lut/type_fuji_astia
 odm/etc/camera/filters_lut/type_fuji_chrome
 odm/etc/camera/filters_lut/type_fuji_provia
 odm/etc/camera/filters_lut/type_fuji_velvia
+odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/vivid-cool.cube.rgb.bin
+odm/etc/camera/filters_lut/vivid-lut.cube.rgb.bin
+odm/etc/camera/filters_lut/vivid-warm.cube.rgb.bin
+odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin
 odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin
 odm/etc/camera/filters_res/film_grain_small.bin
 odm/etc/camera/filters_res/lut_all_points.png
@@ -634,6 +649,7 @@ odm/etc/camera/fwk_config.json
 odm/etc/camera/gasryuv_1.2_wp.model
 odm/etc/camera/model_fdc.data
 odm/etc/camera/settings_fdc_lite.txt
+odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/lib/libDeVIS.so
 odm/lib/libc++_shared.so
 odm/lib64/camera/components/com.oplus.node.pilot.so
@@ -655,6 +671,7 @@ odm/lib64/libFaceBeautyCap.so
 odm/lib64/libFaceBeautyPICap.so
 odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
+odm/lib64/libImageWarpMask.so
 odm/lib64/libOGLManager.so
 odm/lib64/libOPLUS_SCPortrait.so
 odm/lib64/libPerfectlyClearCrux.so
@@ -724,7 +741,7 @@ odm/lib64/libop-ai-beauty-faceretouch-cn.so
 odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
-odm/lib64/libosensehalclient.so
+odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
 odm/lib64/libsnpe_loader.so
@@ -735,10 +752,10 @@ odm/lib64/libstfd_mobile_api.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
-odm/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so
-odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
+odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
+odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
-odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
 vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 vendor/lib64/camera/components/com.bots.node.vendortagwrite.so
@@ -864,8 +881,9 @@ vendor/lib64/libipebpsstriping.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmidasserviceintf.so
+vendor/lib64/libmidasserviceintf_aidl.so
 vendor/lib64/libmmcamera_bestats.so
-vendor/lib64/libmmcamera_cac3.so
+vendor/lib64/libmmcamera_cac.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
@@ -881,7 +899,7 @@ vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
-vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
+vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
@@ -1138,7 +1156,9 @@ odm/lib64/vendor.qti.esepowermanager@1.1.so
 # Fingerprint
 odm/bin/init.oplus.fingerprints.sh
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/libolc_vnd.so
+odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -1322,6 +1342,7 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.8.so
+vendor/lib64/vendor.qti.hardware.radio.ims-V7-ndk_platform.so
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.factory@1.0.so
@@ -1435,8 +1456,8 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
 # Perf
-odm/lib/vendor.oplus.hardware.performance@1.0.so
-odm/lib64/vendor.oplus.hardware.performance@1.0.so
+odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 vendor/bin/hw/vendor.qti.hardware.perf-hal-service
 vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -1655,7 +1676,7 @@ vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio-V5-ndk_platform.so
+vendor/lib64/vendor.qti.hardware.radio.qtiradio-V8-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so
@@ -1664,6 +1685,7 @@ vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so
+vendor/lib64/vendor.qti.hardware.radio.qtiradioconfig-V2-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so
@@ -1749,7 +1771,6 @@ vendor/lib/libfastcvdsp_stub.so
 vendor/lib/libscveCommon.so
 vendor/lib/libscveCommon_stub.so
 vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
 vendor/lib/libscveObjectTracker.so
 vendor/lib/libscveObjectTracker_stub.so
 vendor/lib64/libfastcvdsp_stub.so
@@ -1757,7 +1778,6 @@ vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libscveCommon_stub.so
 vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
 
