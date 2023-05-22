@@ -70,7 +70,10 @@ function blob_fixup() {
             sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
             ;;
         vendor/etc/media_taro/video_system_specs.json)
-            sed -i "/max_retry_alloc_output_timeout/ s/1000/0/" "${2}"
+            sed -i "/max_retry_alloc_output_timeout/ s/2000/0/" "${2}"
+            ;;
+        vendor/etc/media_cape/video_system_specs.json)
+            sed -i "/max_retry_alloc_output_timeout/ s/2000/0/" "${2}"
             ;;
         vendor/lib/libgui1_vendor.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
